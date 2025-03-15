@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>Coffee</title>
+    
+</head>
+<style>/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: brown;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+#home {
+    background-image: url('https://wallpapercave.com/wp/wp2352821.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white; /* Ensure text is readable */
+}
+
+#about {
+    background-image: url('https://wallpapercave.com/wp/wp2352852.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white; /* Ensure text is readable */
+}
+/* Contact Section */
+#contact {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #388E3C;
+}
+
+
+
+/* Header and Navigation Bar */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #388E3C;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Gallery */
+/* Lightbox styles */
+.gallery-item img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #388E3C;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    border-top: 5px solid #4CAF50;
+}
+</style>
+<body>
+    <header>
+        <h1>Welcome to coffee shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home</h2>
+
+
+        <p>   <p>
+        At Brew & Bean Coffee House, we believe that every cup of coffee tells a story. 
+        Nestled in the heart of Downtown, our cozy café is the perfect place to relax, 
+        catch up with friends, or simply enjoy a quiet moment with a delicious brew.
+    </p>
+    <p>
+        Our baristas are passionate about coffee and take pride in crafting each cup with 
+        the finest beans sourced from around the world. Whether you're in the mood for a 
+        classic espresso, a creamy latte, or something sweet and seasonal, we have something 
+        for everyone. Pair your drink with one of our freshly baked pastries or a light snack 
+        from our menu, and experience the warmth of Brew & Bean Coffee House.
+    </p>
+    <p>
+        Join us for a coffee break, or take your favorite drink to-go. We can't wait to serve you!
+    </p><p>
+    we believe that every cup of coffee tells a story. 
+    Nestled in the heart of [Your Location], our cozy café is the perfect place to relax, 
+    catch up with friends, or simply enjoy a quiet moment with a delicious brew.
+</p>
+<p>
+    Our baristas are passionate about coffee and take pride in crafting each cup with 
+    the finest beans sourced from around the world. Whether you're in the mood for a 
+    classic espresso, a creamy latte, or something sweet and seasonal, we have something 
+    for everyone. Pair your drink with one of our freshly baked pastries or a light snack 
+    from our menu, and experience the warmth of [Your Coffee Shop Name].
+</p>
+<p>
+    Join us for a coffee break, or take your favorite drink to-go. We can't wait to serve you!
+</p>
+</p>
+        <img src="https://wallpaperaccess.com/full/1076692.jpg" alt="Image 1">
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p> <p>
+        At Brew & Bean Coffee House, we believe that a great cup of coffee can make your day just a little bit better. Founded in 2015, our coffee shop has been a cornerstone of the Downtown community, offering a warm and welcoming space for all.
+    </p>
+
+    <p>
+        Our mission is simple: to serve the highest quality coffee, made with passion and care. We source our beans from the finest growers around the world, ensuring that every cup we serve is rich in flavor and full of character. Whether you're starting your day with a strong espresso or winding down with a soothing tea, we have something to satisfy every palate.
+    </p>
+
+    <p>
+        But it’s not just about the coffee. We’re committed to creating a space where people can connect, relax, and enjoy the little moments in life. Our café is designed to be a home away from home, with cozy seating, free Wi-Fi, and a friendly atmosphere. Whether you're here to catch up with friends, get some work done, or simply take a break, you'll always find a warm welcome at Brew & Bean Coffee House.
+    </p>
+
+    <p>
+        We’re also proud to support our local community by sourcing ingredients from nearby farms and suppliers. By choosing local, we ensure that our food is fresh and delicious, and that we're contributing to the sustainability of our region.
+    </p>
+
+    <p>
+        Thank you for being a part of our story. We look forward to serving you soon!
+    </p>.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+
+
+            <img src="https://wallup.net/wp-content/uploads/2017/11/23/417519-drink-coffee.jpg" alt="Image 2">
+            <img src="https://pursuewellness.us/wp-content/uploads/2018/10/coffee-cover-2.jpg"="Image 3">
+            <img src="https://wallpaperaccess.com/full/1595950.jpg"="Image 4">
+<img src="https://cdn.vectorstock.com/i/1000v/20/37/top-coffee-shop-background-vector-21152037.jpg"="Image 5">
+<img src="https://wallpapercave.com/wp/wp3583825.jpg"="Image 6">
+<img src="https://wallpaperaccess.com/full/3047940.jpg"="Image 6">
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>By capturing the interest of potential stakeholders, investors, or lenders, you increase the likelihood of further 
+            exploration and collaboration. Remember to keep the summary concise, engaging, and persuasive, showcasing the unique 
+            qualities that make your coffee shop an exciting and promising business opportunity.
+.</p>
+    </footer>
+</body>
+</html>
+
